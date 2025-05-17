@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       return const Center(
                         child: Text(
                           'No se encontraron transacciones',
-                          style: TextStyle(fontSize: 16, color: Colors.black54),
+                          style:  AppTextStyles.textoLabelForm,
                         ),
                       );
                     }
@@ -181,21 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
         shape: const CircleBorder(),
         backgroundColor: Colors.amber,
       ),
-      // Barra inferior con iconos de navegación
-      bottomNavigationBar: BottomAppBar(
-        shape: const CircularNotchedRectangle(),
-        notchMargin: 10,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
-              Icon(Icons.calendar_today),
-              Icon(Icons.menu),
-            ],
-          ),
-        ),
-      ),
+
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }

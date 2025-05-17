@@ -38,18 +38,18 @@ class _LoadingScreenState extends State<LoadingScreen> {
           mainAxisAlignment: MainAxisAlignment.center, // Centrar verticalmente
           children: [
             // Logo: imagen de la abeja
-            Image.asset('assets/images/abeja.png', height: 150),
+            Image.asset('assets/images/gallina.png', height: 150),
             const SizedBox(height: 20), // Separación vertical
             // Título de la app, multilineal y centrado
             const Text(
-              'Control de\nGastos\nPersonales',
+              'Control de Gastos Personales',
               textAlign: TextAlign.center,
               style: AppTextStyles.tituloPantalla,
             ),
             // Subtítulo o crédito del grupo
             const Text(
-              'by Grupo 57',
-              style: AppTextStyles.textoFormulario,
+              'por Grupo 57',
+              style: AppTextStyles.textoLabelForm,
             ),
             const SizedBox(height: 30), // Espacio antes del indicador
             // Indicador circular de progreso
