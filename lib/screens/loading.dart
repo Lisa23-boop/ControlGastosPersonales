@@ -48,7 +48,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
             ),
             // Subtítulo o crédito del grupo
             const Text(
-              'por Grupo 57',
+              'Por Grupo 57',
               style: AppTextStyles.textoLabelForm,
             ),
             const SizedBox(height: 30), // Espacio antes del indicador
